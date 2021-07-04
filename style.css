@@ -26,7 +26,7 @@ h1{
     text-transform: capitalize;
     transition-duration: 0ms;
 }
-section{
+.flexable-container{
     display:flex;
     margin-bottom: 150px;
 }
@@ -43,4 +43,30 @@ background-repeat: no-repeat;
 }
 .ariani{
     width:50%;
+}
+.goni{
+    box-shadow: 10px 20px 40px gray;
+    width:40%;
+    border-radius:10px;
+    margin-left: 5%;
+    margin-right:5%;
+padding: 5px;
+}
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#onny{
+    border-image: linear-gradient(blue,cyan);
+    border-left:7px solid;
+    border-image-slice: 1;
+}
+#mukta{
+    border-image: linear-gradient(red,cyan);
+    border-left:7px solid;
+    border-image-slice: 1;
+}
+footer p {
+    text-align:center;
 }
